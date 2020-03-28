@@ -1,8 +1,1 @@
-Thank you for using our template!
-
-For more awesome templates please visit https://colorlib.com/wp/templates/
-
-Copyright information for the template can't be altered/removed unless you purchase a license.
-More information about the license is available here: https://colorlib.com/wp/licence/
-
-Removing copyright information without the license will result in suspension of your hosting and/or domain name(s).
+newspark is an online donation platform that bridges the gap between viewing online content and donating to the causes we care about. With newspark, let's make the world a better place - one click at a time.
