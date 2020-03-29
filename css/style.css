@@ -580,6 +580,7 @@ h1, h2, h3, h4, h5,
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4286f4', endColorstr='#42e2f4', GradientType=1 ); }
 
 .site-blocks-cover {
+  padding-top: 50px;
   background-size: cover;
   background-size: 120% 200%;
   background-repeat: no-repeat;
@@ -896,6 +897,10 @@ h1, h2, h3, h4, h5,
     .site-block-tab .nav-item > a:hover, .site-block-tab .nav-item > a.active {
       border-bottom: 2px solid #448aff;
       color: #000; }
+
+.marg-top{
+  margin-top: 50px;
+}
 
 .block-13, .slide-one-item {
   position: relative;
