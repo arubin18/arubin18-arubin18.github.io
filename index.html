@@ -77,12 +77,12 @@
               <ul class="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block ml-0 pl-0">
                 <li><a href="#home-section" class="nav-link">Home</a></li>
                 <li><a href="#about-section" class="nav-link">About Us</a></li>
-                <li><a href="#overview-section" class="nav-link">Overview</a></li>
+                <!-- <li><a href="#overview-section" class="nav-link">Overview</a></li> -->
                 <li class="has-children"><a href="#product-section" class="nav-link">Products</a>
                     <ul class="dropdown arrow-top">
-                      <li><a href="publishers.html" class="nav-link">For publishers</a></li>
-                      <li><a href="charities.html" class="nav-link">For charities</a></li>
-                      <li><a href="extension.html" class="nav-link">For chrome users</a></li>
+                      <li><a href="publishers.html" class="nav-link">For Publishers</a></li>
+                      <li><a href="charities.html" class="nav-link">For Charities</a></li>
+                      <li><a href="extension.html" class="nav-link">For Chrome Users</a></li>
                       <!-- <li class="has-children">
                         <a href="#">More Links</a>
                         <ul class="dropdown">
@@ -114,7 +114,8 @@
           </div>
           <div class="col-lg-6" data-aos="fade-right">
             <div class = "marg-top"></div>
-            <img src="images/cover.png" alt="Image" class="img-fluid img-border">
+<!--            <img src="images/cover.png" alt="Image" class="img-fluid img-border">-->
+            <iframe style="width:630px; height:354px; border: 1px solid black;" src="https://www.youtube.com/embed/dLEpLBlRedw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
         </div>
       </div>
@@ -193,7 +194,7 @@
                 <span class="icon-wrap"><span class="text-primary icon-newspaper-o"></span></span>
               </div>
               <div>
-                <h3>For publishers</h3>
+                <h3>For Publishers</h3>
                 <p>A plugin you can install on your website that displays charities relevant to your content</p>
                 <p><a href="publishers.html" class="btn btn-primary">Learn more</a></p>
               </div>
@@ -206,7 +207,7 @@
                 <span class="icon-wrap"><span class="text-primary icon-handshake-o"></span></span>
               </div>
               <div>
-                <h3>For charities</h3>
+                <h3>For Charities</h3>
                 <p>A donor management system and advertizing on the sites of publishers we partner with</p>
                 <p><a href="charities.html" class="btn btn-primary">Learn more</a></p>
               </div>
@@ -219,7 +220,7 @@
                 <span class="icon-wrap"><span class="text-primary icon-people"></span></span>
               </div>
               <div>
-                <h3>For anyone</h3>
+                <h3>For Anyone</h3>
                 <p>A chrome extension that displays charities relevant to the articles you read. Check it out below.</p>
                 <p><a href="extension.html" class="btn btn-primary">Learn more</a></p>
               </div>
@@ -466,57 +467,49 @@
         <div class="row justify-content-center">
           <div class="col-lg-7 mb-5">
 
-
-
-            <form action="#" class="p-5 bg-white">
+            <form action="mailto:newspark.info@gmail.com" class="p-5 bg-white" method="post" enctype="text/plain">
 
               <h2 class="h4 text-black mb-5">Contact Form</h2>
 
               <div class="row form-group">
                 <div class="col-md-6 mb-3 mb-md-0">
                   <label class="text-black" for="fname">First Name</label>
-                  <input type="text" id="fname" class="form-control rounded-0">
+                  <input type="text" name="First Name" id="fname" class="form-control rounded-0" required>
                 </div>
+
                 <div class="col-md-6">
                   <label class="text-black" for="lname">Last Name</label>
-                  <input type="text" id="lname" class="form-control rounded-0">
+                  <input type="text" name="Last Name" id="lname" class="form-control rounded-0" required>
                 </div>
               </div>
 
-              <div class="row form-group">
+<!--              <div class="row form-group">-->
+<!--                <div class="col-md-12">-->
+<!--                  <label class="text-black" for="email">Email</label>-->
+<!--                  <input type="email" name="Email" id="email" class="form-control rounded-0" required>-->
+<!--                </div>-->
+<!--              </div>-->
 
-                <div class="col-md-12">
-                  <label class="text-black" for="email">Email</label>
-                  <input type="email" id="email" class="form-control rounded-0">
-                </div>
-              </div>
-
-              <div class="row form-group">
-
-                <div class="col-md-12">
-                  <label class="text-black" for="subject">Subject</label>
-                  <input type="subject" id="subject" class="form-control rounded-0">
-                </div>
-              </div>
+<!--              <div class="row form-group">-->
+<!--                <div class="col-md-12">-->
+<!--                  <label class="text-black" for="subject">Subject</label>-->
+<!--                  <input type="text" name="subject" id="subject" class="form-control rounded-0" required>-->
+<!--                </div>-->
+<!--              </div>-->
 
               <div class="row form-group">
                 <div class="col-md-12">
                   <label class="text-black" for="message">Message</label>
-                  <textarea name="message" id="message" cols="30" rows="7" class="form-control rounded-0" placeholder="Leave your message here..."></textarea>
+                  <textarea type="text" name="Message" id="message" cols="30" rows="7" class="form-control rounded-0" placeholder="Leave your message here..."></textarea>
                 </div>
               </div>
 
-              <div class="row form-group">
+              <div class="row form-group text-center">
                 <div class="col-md-12">
-                  <input type="submit" value="Send Message" class="btn btn-primary mr-2 mb-2">
+                  <input type="submit" value="Send Email" class="btn btn-primary mr-2 mb-2">
                 </div>
               </div>
-
-
             </form>
-
-
-
           </div>
 
         </div>
