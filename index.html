@@ -639,11 +639,7 @@
   <script type="text/javascript">
 
     $(document).ready(function($){
-      $( "#footerCommon" ).load( "shared/footer.html", function( response, status, xhr ) {
-                    if ( status == "error" ) {
-                        alert( "Sorry but there was an error: " + xhr.status + " " + xhr.statusText );
-                    }
-                });
+      $( "#footerCommon" ).load( "shared/footer.html");
     });
 
   </script>
