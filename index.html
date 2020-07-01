@@ -34,16 +34,28 @@
     <!-- <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script> -->
 
 
-
+    <!-- Web -->
     <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-P9ZQRC2TCN"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-162006713-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-162006713-1');
+    </script>
+
+
+    <!-- app + webb -->
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-P9ZQRC2TCN"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
 
       gtag('config', 'G-P9ZQRC2TCN');
-    </script>
+    </script> -->
 
   </head>
   <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
@@ -588,7 +600,9 @@
 
     $(document).ready(function($){
       $( "#header" ).load( "shared/header.html");
+      console.log("loaded header")
       $( "#footer" ).load( "shared/footer.html");
+      console.log("loaded footer")
     });
 
   </script>
