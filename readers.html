@@ -309,25 +309,7 @@
       </div>
     </div>
 
-    <div class="footer py-4 text-center bg-light">
-      <div class="container">
-        <div class="row mb-0">
-          <div class="col-12">
-            <p class="mb-0">
-             2020 Newspark Technologies, Inc
-            </p>
-          </div>
-          <div class="col-12">
-            <p class="mb-0">
-              <a href="https://www.facebook.com/newspark.us/" class="p-3" target="_blank"><span class="icon-facebook"></span></a>
-              <a href="https://twitter.com/NewsparkUS" class="p-3" target="_blank"><span class="icon-twitter"></span></a>
-              <a href="https://www.instagram.com/newspark.us/" class="p-3" target="_blank"><span class="icon-instagram"></span></a>
-              <a href="https://www.linkedin.com/company/newsparktechnologies/" class="p-3" target="_blank"><span class="icon-linkedin"></span></a>
-            </p>
-            </div>
-          </div>
-        </div>
-      </div>
+    <div id="footer">
     </div>
 
 
@@ -344,6 +326,17 @@
   <script src="js/aos.js"></script>
   <script src="js/jquery.fancybox.min.js"></script>
   <script src="js/jquery.sticky.js"></script>
+
+  <script type="text/javascript">
+
+    $(document).ready(function($){
+      $( "#footer" ).load( "shared/footer.html");
+      console.log("loaded footer")
+      $( "#header" ).load( "shared/header.html");
+      console.log("loaded header")
+    });
+
+  </script>
 
 
   <script src="js/main.js"></script>
