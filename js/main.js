@@ -6,6 +6,8 @@
 
 jQuery(document).ready(function($) {
 
+	console.log("Executing main");
+
 	"use strict";
 
 
